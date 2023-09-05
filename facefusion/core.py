@@ -18,7 +18,7 @@ import tensorflow
 import facefusion.choices
 import facefusion.globals
 from facefusion import wording, metadata
-# from facefusion.predictor import predict_image, predict_video
+from facefusion.predictor import predict_image, predict_video
 from facefusion.processors.frame.core import get_frame_processors_modules
 from facefusion.utilities import is_image, is_video, detect_fps, create_video, extract_frames, get_temp_frame_paths, restore_audio, create_temp, move_temp, clear_temp, normalize_output_path, list_module_names, decode_execution_providers, encode_execution_providers
 
